@@ -4,6 +4,11 @@ body {
     color: #2C363F;
 }
 
+ul {
+    text-align: center;
+    list-style: inside;
+}
+
 li {
     list-style-type: none;
 }
