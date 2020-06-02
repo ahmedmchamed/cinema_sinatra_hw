@@ -72,8 +72,26 @@ film2 = Film.new({
     'price' => 30
 })
 
+film3 = Film.new({
+    'title' => 'Shaolin Soccer',
+    'price' => 35
+})
+
+film4 = Film.new({
+    'title' => 'Kung Fu Hustle',
+    'price' => 35
+})
+
+film5 = Film.new({
+    'title' => 'Little Nemo: Adventures in Slumberland',
+    'price' => 40
+})
+
 film1.save()
 film2.save()
+film3.save()
+film4.save()
+film5.save()
 
 ##################
 ####SCREENING#####
